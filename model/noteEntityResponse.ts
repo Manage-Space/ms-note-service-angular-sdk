@@ -34,17 +34,19 @@ export interface NoteEntityResponse {
     entityTypeDisplayName: string;
 }
 export namespace NoteEntityResponse {
-    export type EntityTypeIdEnum = 1 | 2 | 3;
+    export type EntityTypeIdEnum = 1 | 2 | 3 | 4;
     export const EntityTypeIdEnum = {
         NUMBER_1: 1 as EntityTypeIdEnum,
         NUMBER_2: 2 as EntityTypeIdEnum,
-        NUMBER_3: 3 as EntityTypeIdEnum
+        NUMBER_3: 3 as EntityTypeIdEnum,
+        NUMBER_4: 4 as EntityTypeIdEnum
     };
-    export type EntityTypeCodeNameEnum = 'contact' | 'company' | 'unit';
+    export type EntityTypeCodeNameEnum = 'contact' | 'company' | 'unit' | 'invoice';
     export const EntityTypeCodeNameEnum = {
         Contact: 'contact' as EntityTypeCodeNameEnum,
         Company: 'company' as EntityTypeCodeNameEnum,
-        Unit: 'unit' as EntityTypeCodeNameEnum
+        Unit: 'unit' as EntityTypeCodeNameEnum,
+        Invoice: 'invoice' as EntityTypeCodeNameEnum
     };
 }
 
