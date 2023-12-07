@@ -1,6 +1,6 @@
 {
   "name": "@managespace/ms-note-service-angular-sdk",
-  "version": "0.0.11-dev",
+  "version": "0.0.12-dev",
   "description": "OpenAPI client for @managespace/ms-note-service-angular-sdk",
   "author": "OpenAPI-Generator Contributors",
   "repository": {
